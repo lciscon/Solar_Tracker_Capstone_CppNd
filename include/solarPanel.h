@@ -12,6 +12,8 @@ private:
 
 public:
     sunDetector sd;
+    motionCtrl ctrl;
+
     //constructor 
     solarPanel();
     // Take actions to Motors

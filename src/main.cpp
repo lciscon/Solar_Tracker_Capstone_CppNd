@@ -9,8 +9,9 @@ int main()
 
     solarPanel sp;
 
-    // Create a VideoCapture object and open the input file
-    cv::VideoCapture cap("../resources/sun_no_clouds.mp4");
+    // Create a VideoCapture object and open the input device
+    //cv::VideoCapture cap("../resources/sun_no_clouds.mp4");
+    cv::VideoCapture cap(0);
     cv::Mat frame;
 
     // Check if camera opened successfully
@@ -21,6 +22,7 @@ int main()
     }
     cap >> frame;
     sp.sd.startVideo(frame);
+
     while (1)
     {
         // save every frame from source video to frame variable
