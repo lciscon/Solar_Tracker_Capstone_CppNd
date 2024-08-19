@@ -1,0 +1,3 @@
+/home/pi/Solar_Tracker_Capstone_CppNd/build/CMakeFiles/solarTracker.dir
+/home/pi/Solar_Tracker_Capstone_CppNd/build/CMakeFiles/edit_cache.dir
+/home/pi/Solar_Tracker_Capstone_CppNd/build/CMakeFiles/rebuild_cache.dir

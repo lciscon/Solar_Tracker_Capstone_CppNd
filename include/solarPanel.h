@@ -1,7 +1,8 @@
 #ifndef SOLARPANEL_H
 #define SOLARPANEL_H
 #include <string>
-#include "SunDetector.h"
+#include <motionCtrl.h>
+#include <SunDetector.h>
 
 class solarPanel
 {

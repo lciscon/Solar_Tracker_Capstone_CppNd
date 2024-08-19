@@ -1,7 +1,5 @@
 #include <solarPanel.h>
 
-
-
 solarPanel::solarPanel()
 {
 }
@@ -20,10 +18,10 @@ std::string solarPanel::takeAction(cv::Mat& fr)
     // horzontal direction
     if (sd.getSunCenter()[0] < sd.getFrameCenter()[0]) {
         horizontal = "Go Left";
-        AzimVal = 5;
+        AzimVal = -1;
     } else if (sd.getSunCenter()[0] > sd.getFrameCenter()[0]) {
         horizontal = "Go Right";
-        AzimVal = -5;
+        AzimVal = 1;
     } else {
         horizontal = "Don't move Horzontally";
     }
@@ -31,10 +29,10 @@ std::string solarPanel::takeAction(cv::Mat& fr)
     // vertical diretion
     if (sd.getSunCenter()[1] < sd.getFrameCenter()[1]) {
         verticle = "Go UP";
-        ElevVal = 5;
+        ElevVal = 1;
     } else if (sd.getSunCenter()[1] > sd.getFrameCenter()[1]) {
         verticle = "Go DOWN";
-        ElevVal = -5;
+        ElevVal = -1;
     } else {
         verticle = "Don't move verticlly";
     }
@@ -43,8 +41,10 @@ std::string solarPanel::takeAction(cv::Mat& fr)
     Action = verticle + " and  " + horizontal;
     sd.display(Action);
 
-    Cmd = "G1 " + "A" + AzimVal + " E" + ElevVal;
-    ctrl.sendCmd(Cmd);
+    char ctrlstr[64];
+    sprintf(ctrlstr, "G1 A%f E%f", AzimVal, ElevVal);
+    std::string cmd(ctrlstr);
+    ctrl.sendCmd(cmd);
 
     return Action;
 }

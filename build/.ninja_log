@@ -1,0 +1,11 @@
+# ninja log v5
+2	97	1724017759802633877	CMakeFiles/solarTracker.dir/src/Test.cpp.o	c1949004fad2320
+5	8444	1724019166178083387	CMakeFiles/solarTracker.dir/src/motionCtrl.cpp.o	a3b1ecc424ff4a41
+2	13512	1724017773218551894	CMakeFiles/solarTracker.dir/src/main.cpp.o	42b3356b08eb5cdb
+4	8842	1724020630435557488	CMakeFiles/solarTracker.dir/src/solarPanel.cpp.o	f10a6e43eb2fe894
+1	13894	1724017773602549310	CMakeFiles/solarTracker.dir/src/SunDetector.cpp.o	eaa481cde7f7ad4d
+8842	11412	1724020632994713908	solarTracker	e6e99c4d2d175e63
+4	8728	1724027584462297676	CMakeFiles/solarTracker.dir/src/motionCtrl.cpp.o	a3b1ecc424ff4a41
+8728	10898	1724027586622304261	solarTracker	e6e99c4d2d175e63
+4	8586	1724027655746652279	CMakeFiles/solarTracker.dir/src/main.cpp.o	42b3356b08eb5cdb
+8587	10354	1724027657506664016	solarTracker	e6e99c4d2d175e63

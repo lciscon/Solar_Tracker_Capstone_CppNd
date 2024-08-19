@@ -8,4 +8,4 @@ file(GLOB SOURCES "src/*.cpp")
 add_executable( solarTracker ${SOURCES})
 
 find_package( OpenCV REQUIRED )
-target_link_libraries( solarTracker ${OpenCV_LIBS} )
+target_link_libraries( solarTracker ${OpenCV_LIBS} wiringPi)
