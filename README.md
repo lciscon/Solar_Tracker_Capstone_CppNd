@@ -12,11 +12,11 @@ In the current version, the action is a basic a print on the terminal.
 ## Cloning
 
 ```
-git clone https://github.com/AmarYasser/Solar_Tracker_Capstone_CppNd.git
+git clone https://github.com/lciscon/Solar_Tracker_Capstone_CppNd.git
 ```
 or with SSH:
 ```
-git clone git@github.com:AmarYasser/Solar_Tracker_Capstone_CppNd.git
+git clone git@github.com:lciscon/Solar_Tracker_Capstone_CppNd.git
 ```
 
 ## Dependencies for Running Locally
