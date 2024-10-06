@@ -1,31 +1,31 @@
 [
 {
   "directory": "/home/pi/Solar_Tracker_Capstone_CppNd/build",
-  "command": "/usr/bin/c++ -I/home/pi/Solar_Tracker_Capstone_CppNd/include -isystem /usr/include/opencv4 -g -o CMakeFiles/solarTracker.dir/src/SunDetector.cpp.o -c /home/pi/Solar_Tracker_Capstone_CppNd/src/SunDetector.cpp",
+  "command": "/usr/bin/c++  -I/home/pi/Solar_Tracker_Capstone_CppNd/include -isystem /usr/include/opencv4 -g -o CMakeFiles/solarTracker.dir/src/SunDetector.cpp.o -c /home/pi/Solar_Tracker_Capstone_CppNd/src/SunDetector.cpp",
   "file": "/home/pi/Solar_Tracker_Capstone_CppNd/src/SunDetector.cpp",
   "output": "CMakeFiles/solarTracker.dir/src/SunDetector.cpp.o"
 },
 {
   "directory": "/home/pi/Solar_Tracker_Capstone_CppNd/build",
-  "command": "/usr/bin/c++ -I/home/pi/Solar_Tracker_Capstone_CppNd/include -isystem /usr/include/opencv4 -g -o CMakeFiles/solarTracker.dir/src/Test.cpp.o -c /home/pi/Solar_Tracker_Capstone_CppNd/src/Test.cpp",
+  "command": "/usr/bin/c++  -I/home/pi/Solar_Tracker_Capstone_CppNd/include -isystem /usr/include/opencv4 -g -o CMakeFiles/solarTracker.dir/src/Test.cpp.o -c /home/pi/Solar_Tracker_Capstone_CppNd/src/Test.cpp",
   "file": "/home/pi/Solar_Tracker_Capstone_CppNd/src/Test.cpp",
   "output": "CMakeFiles/solarTracker.dir/src/Test.cpp.o"
 },
 {
   "directory": "/home/pi/Solar_Tracker_Capstone_CppNd/build",
-  "command": "/usr/bin/c++ -I/home/pi/Solar_Tracker_Capstone_CppNd/include -isystem /usr/include/opencv4 -g -o CMakeFiles/solarTracker.dir/src/main.cpp.o -c /home/pi/Solar_Tracker_Capstone_CppNd/src/main.cpp",
+  "command": "/usr/bin/c++  -I/home/pi/Solar_Tracker_Capstone_CppNd/include -isystem /usr/include/opencv4 -g -o CMakeFiles/solarTracker.dir/src/main.cpp.o -c /home/pi/Solar_Tracker_Capstone_CppNd/src/main.cpp",
   "file": "/home/pi/Solar_Tracker_Capstone_CppNd/src/main.cpp",
   "output": "CMakeFiles/solarTracker.dir/src/main.cpp.o"
 },
 {
   "directory": "/home/pi/Solar_Tracker_Capstone_CppNd/build",
-  "command": "/usr/bin/c++ -I/home/pi/Solar_Tracker_Capstone_CppNd/include -isystem /usr/include/opencv4 -g -o CMakeFiles/solarTracker.dir/src/motionCtrl.cpp.o -c /home/pi/Solar_Tracker_Capstone_CppNd/src/motionCtrl.cpp",
+  "command": "/usr/bin/c++  -I/home/pi/Solar_Tracker_Capstone_CppNd/include -isystem /usr/include/opencv4 -g -o CMakeFiles/solarTracker.dir/src/motionCtrl.cpp.o -c /home/pi/Solar_Tracker_Capstone_CppNd/src/motionCtrl.cpp",
   "file": "/home/pi/Solar_Tracker_Capstone_CppNd/src/motionCtrl.cpp",
   "output": "CMakeFiles/solarTracker.dir/src/motionCtrl.cpp.o"
 },
 {
   "directory": "/home/pi/Solar_Tracker_Capstone_CppNd/build",
-  "command": "/usr/bin/c++ -I/home/pi/Solar_Tracker_Capstone_CppNd/include -isystem /usr/include/opencv4 -g -o CMakeFiles/solarTracker.dir/src/solarPanel.cpp.o -c /home/pi/Solar_Tracker_Capstone_CppNd/src/solarPanel.cpp",
+  "command": "/usr/bin/c++  -I/home/pi/Solar_Tracker_Capstone_CppNd/include -isystem /usr/include/opencv4 -g -o CMakeFiles/solarTracker.dir/src/solarPanel.cpp.o -c /home/pi/Solar_Tracker_Capstone_CppNd/src/solarPanel.cpp",
   "file": "/home/pi/Solar_Tracker_Capstone_CppNd/src/solarPanel.cpp",
   "output": "CMakeFiles/solarTracker.dir/src/solarPanel.cpp.o"
 }

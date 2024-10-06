@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/pi/Solar_Tracker_Capstone_CppNd/include -isystem /usr/include/opencv4
 
-CXX_FLAGS = 
+CXX_FLAGS = -g
 
